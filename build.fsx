@@ -10,7 +10,7 @@ Target "Clean" (fun _ ->
 )
 
 Target "Build" (fun _ ->
-    MSBuildRelease buildDir "Build" ["AkkaWordCount.sln"] |> ignore
+    MSBuildRelease buildDir "Build" ["Dispatcher\Dispatcher.csproj"; "Worker\Worker.csproj"] |> ignore
 )
 
 "Clean"
