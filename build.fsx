@@ -22,7 +22,6 @@ Target "Deploy" (fun _->
     let workerStartInfo = new ProcessStartInfo(workerBuildDir </> "Worker.exe")
     Process.Start (workerStartInfo) |> ignore
     Process.Start (dispatcherStartInfo) |> ignore
-
 )
 
 "Clean"

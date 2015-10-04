@@ -11,8 +11,13 @@ NUGET
       Akka (>= 1.0.4)
       Google.ProtocolBuffers (>= 2.4.1.521)
       Helios (>= 1.4.1)
-    FAKE (4.4.4)
     Google.ProtocolBuffers (2.4.1.555)
     Helios (1.4.1)
     Microsoft.Bcl.Immutable (1.0.34)
     Newtonsoft.Json (7.0.1)
+
+GROUP Build
+NUGET
+  remote: https://nuget.org/api/v2
+  specs:
+    FAKE (4.4.4)

@@ -1,3 +1,6 @@
 source https://nuget.org/api/v2
 nuget akka.cluster
-nuget fake
+
+group Build
+	source https://nuget.org/api/v2
+	nuget fake
